@@ -1,0 +1,3 @@
+User-agent: *
+Allow: *
+Sitemap: https://avinash-sharma.com/sitemap.xml

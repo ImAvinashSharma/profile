@@ -1,0 +1,25 @@
+{
+  "short_name": "Avinash Sharma",
+  "name": "Avinash Sharma",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "theme-color": "#ffffff",
+  "background_color": "#000000",
+  "background-color": "#000000",
+  "description": "Avinash Sharma blog website about technology and software.",
+  "icons": [
+    {
+      "src": "/images/app-images/avinash-sharma.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app-images/avinash-sharma.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
