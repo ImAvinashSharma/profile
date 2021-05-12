@@ -10,13 +10,13 @@
   "description": "Avinash Sharma blog website about technology and software.",
   "icons": [
     {
-      "src": "/images/app-images/avinash-sharma.png",
+      "src": "/images/avinash-sharma.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/app-images/avinash-sharma.png",
+      "src": "/images/avinash-sharma.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
