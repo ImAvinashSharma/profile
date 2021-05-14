@@ -3,7 +3,6 @@ $(document).ready(function () {
     $(this).toggleClass("fa-times");
     $("header").toggleClass("toggle");
   });
-
   $(window).on("scroll load", function () {
     $("#menu").removeClass("fa-times");
     $("header").removeClass("toggle");
@@ -14,9 +13,7 @@ $(document).ready(function () {
       $(".top").hide();
     }
   });
-
   // smooth scrolling
-
   $('a[href*="#"]').on("click", function (e) {
     e.preventDefault();
 
