@@ -279,6 +279,10 @@ header .navbar ul li a:hover {
   background: var(--yellow);
 }
 
+.education .box-container .box p > a {
+  text-decoration: none;
+}
+
 .portfolio .box-container {
   display: flex;
   align-items: center;
