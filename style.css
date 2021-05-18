@@ -439,3 +439,24 @@ header .navbar ul li a:hover {
     margin: 3rem 0;
   }
 }
+.blog {
+  color: #fff;
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+.blog img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
