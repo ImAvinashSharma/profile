@@ -10,6 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Build the image
+    - name: docker login
+      env:
+        DOCKER_USER: ${{secrets.DOCKER_USER}}
+        DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       run: |
-        docker build . && echo Build successfully
+        docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+    - name: Build the Docker image api
+      working-directory: ./api
+      run: docker build . -t ${{secrets.DOCKER_USER}}/profile:latest
+
+    - name: Docker push image api
+      working-directory: ./api
+      run: docker push ${{secrets.DOCKER_USER}}/profile:latest
