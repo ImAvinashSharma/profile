@@ -17,9 +17,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image api
-      working-directory: ./api
       run: docker build . -t ${{secrets.DOCKER_USER}}/profile:latest
 
     - name: Docker push image api
-      working-directory: ./api
       run: docker push ${{secrets.DOCKER_USER}}/profile:latest
